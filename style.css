@@ -1,0 +1,146 @@
+/* ///////// New Formats ////////////////////////////////////  */
+
+.logo {
+  height: 2.2rem;
+  /* box-shadow: 1rem 2.4rem 9.6rem rgba(0, 0, 0, 0.637); */
+  border-radius: 4px;
+}
+
+.nav-link:link,
+.nav-link:visited {
+  color: #021734c7;
+}
+
+.nav-link:hover,
+.nav-link:active {
+  color: #021734fe;
+}
+
+/* Hero Carousel */
+.carousel-caption {
+  bottom: 30%;
+}
+
+.carousel-caption h1,
+.carousel-caption p {
+  text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.515);
+}
+
+/* .section-heading-logo-container {
+  row-gap: 0px;
+} */
+
+.section-heading-logo {
+  width: 2%;
+}
+
+/* About Us  */
+.lead-dentist-img {
+  height: 4.8rem;
+  width: 4.8rem;
+  border-radius: 50%;
+  /* Use margin-right negative value for overlap */
+  /* margin-right: -1.2rem; */
+  border: 3px solid #0217340f;
+}
+
+/* Service */
+.service-img-container {
+  overflow: hidden;
+}
+
+.service-img {
+  transition: all 0.4s;
+}
+
+.service-img:hover {
+  transform: scale(1.1);
+}
+
+/* Dentist */
+.dentist-card {
+  transition: all 0.4s;
+}
+
+.dentist-card:hover {
+  /* translateY only moves the element in Y direction, negative means up */
+  transform: translateY(-0.8rem);
+  /* When element moves up, shadow should be bigger/darker, as it's closer to the 'light source' */
+  box-shadow: 0 3.2rem 6.4rem rgba(0, 0, 0, 0.065);
+}
+
+/* Accordion button */
+.accordion-button:not(.collapsed) {
+  color: #e8f1f8;
+  background-color: #021734;
+}
+
+/* For nav tabs - change button color */
+/* https://stackoverflow.com/questions/51701512/how-to-change-the-color-of-active-tab-in-bootstrap */
+.nav-pills .nav-link {
+  color: #021f49;
+  font-weight: 500;
+}
+
+.nav-pills .nav-link:hover {
+  background-color: #0220490c;
+}
+
+.nav-pills .nav-link.active {
+  background-color: #021f49;
+}
+
+/* //////////  End new formats ////////////////////// */
+
+/* Footer social icons */
+.d-flex {
+  gap: 8px;
+}
+
+.navbar-toggler-icon {
+  background-color: rgba(255, 255, 255, 0.811);
+  border-radius: 2px;
+  /* box-shadow: 2px 2px 10px #000; */
+}
+
+.navbar-nav {
+  font-weight: 600;
+}
+
+/* Set hero section to start at the same spot as the navbar */
+#hero {
+  /* position: absolute; */
+  top: 0;
+  left: 0;
+}
+
+#about {
+  margin-top: 4rem;
+  margin-bottom: 4rem;
+}
+
+.about-us-img {
+  width: 45%;
+}
+
+.cta-container {
+  /* background-image: linear-gradient(to bottom, #000d0eb3, #000d0e),
+    url("/img/hero-1-aspected.jpg"); */
+  /* background-image: url("/img/hero-1-aspected.jpg"); */
+  background-image: linear-gradient(to right bottom, #1c4277, #021734b1);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: top;
+
+  /* Parallex Effect */
+  background-attachment: fixed;
+}
+
+/* /////////////////////////////////////////////// */
+/* For Sub Pages */
+/* /////////////////////////////////////////////// */
+
+/* Apply to Breadcrumb divider */
+/* li.breadcrumb-item.active::before {
+  color: white;
+} */
